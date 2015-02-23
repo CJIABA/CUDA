@@ -1,0 +1,144 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5em;
+}
+body {
+    line-height:1;
+    font-family: 'Titillium Web', sans-serif;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+button {
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    outline: none !important;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+li {
+    list-style: none;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.7em;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
